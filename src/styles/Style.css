@@ -1,0 +1,95 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+
+.menu {
+  position: fixed;
+  /* font-size: 3vw; */
+  width: 100%;
+  background-color: #E11313;
+  color:white;
+  list-style-type: none;
+  z-index: 1;
+  height: 100px;
+}
+.menyTextTruck {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+
+}
+.menyTextTruck:hover {
+  text-decoration: none;
+
+}
+
+.menyTextUnder {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  left: 50px;
+  bottom: 9px;
+
+}
+
+a.link {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: black;
+}
+
+.blockOfLinks {
+  margin-right: 10%;
+  float: right;
+  height: 100px;
+  margin-top: 30px;
+
+}
+
+li {
+  list-style-type: none;
+  float: left;
+/* margin-top: 30px; */
+  /* text-align: right; */
+}
+@media screen and (min-width: 601px) {
+  .menu {
+    font-size: 20px;
+    font-weight:500;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu {
+    font-size: 15px;
+  }
+}
+
+.readMoreButton {
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  background-color: #E11313;
+  height: 70px;
+  width: 200px;
+  border: 0px;
+}
+.serviceButton {
+  color: black;
+  font-size: 2em;
+  font-weight: 500;
+  background-color: white;
+  height: 70px;
+  width: 200px;
+  border: 0px;
+  margin-top: 30px;
+
+}
